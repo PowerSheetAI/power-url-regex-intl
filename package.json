@@ -24,7 +24,7 @@
     "url"
   ],
   "dependencies": {
-    "ip-regex": "^3.0.0",
+    "ip-regex": "^4.1.0",
     "tlds": "^1.199.0"
   },
   "devDependencies": {
