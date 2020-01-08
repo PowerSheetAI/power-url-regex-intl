@@ -1,5 +1,7 @@
 import test from 'ava';
-import m from '..';
+import { urlRegex, isUrlRegex } from '..';
+
+const m = urlRegex;
 
 test('match URLs with parenthesis in text', t => {
   const fixtureParen = require('./fixture-paren.json');
