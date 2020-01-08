@@ -13,11 +13,14 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "build": "webpack",
+    "test": "ava",
+    "test-style": "xo"
   },
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "keywords": [
     "regex",
     "regexp",
@@ -64,7 +67,13 @@
     "tlds": "^1.199.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "ava": "^1.1.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
     "xo": "^0.24.0"
   },
   "xo": {
