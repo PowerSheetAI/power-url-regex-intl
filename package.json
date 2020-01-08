@@ -1,13 +1,13 @@
 {
-  "name": "uber-url-regex",
-  "version": "5.0.6",
-  "description": "Regular expression for matching URLs",
+  "name": "power-url-regex-intl",
+  "version": "6.0.0",
+  "description": "Regular expression for smart international-friendly finding, matching and replacing of one or more URLs found in text, regardless of whether or not starts with http:// or www, based on detection of even the newest IDN international registered top-level domains (TLDs) (like .com, .ai, .io, .co.uk, .community, .app, .個人.香港, .xn--tiq49xqyj) even when have punctuation, symbols, emojis, bullet points, etc. found immediately before or after the URL. Handles Unicode and international (CJK, Cyrillic, half-width, full-width, Chinese, Japanese, Korean, etc.) TLDs (such as found at tld-list.com), punctuation, IP addresses, port numbers, uncommon protocols, localhost, WebRTC, and double dot TLDs, Punycode and more. Optimized for reliable use with social posts, messages, articles, web scraping, rich text editing, data entry and more. By developers of free AI powered Power Sheet platform (https://PowerSheet.ai) for auto-creating no-code apps, real-time collaboration, BI dashboards, forms and report for Excel, web, mobile and embedded use.",
   "license": "MIT",
-  "repository": "averissimo/url-regex",
+  "repository": "PowerSheetAI/power-url-regex-intl",
   "author": {
-    "name": "André Veríssimo",
-    "email": "afsverissimo@gmail.com",
-    "url": "https://github.com/averissimo"
+    "name": "Dan Moorehead | PowerSheet.ai",
+    "email": "Dan@PowerSheet.ai",
+    "url": "https://PowerSheet.ai"
   },
   "engines": {
     "node": ">=4"
@@ -20,11 +20,47 @@
   ],
   "keywords": [
     "regex",
+    "regexp",
+    "regular-expression",
+    "pattern",
+    "text",
     "string",
-    "url"
+    "url",
+    "international",
+    "internationalization",
+    "localization",
+    "globalization",
+    "match",
+    "matches",
+    "regular",
+    "expression",
+    "format",
+    "validate",
+    "parse",
+    "social",
+    "safe",
+    "replace",
+    "domains",
+    "tld",
+    "idn",
+    "punnycode",
+    "i18n",
+    "l10n",
+    "characters",
+    "emoji",
+    "find",
+    "wildcard",
+    "internet",
+    "protocol",
+    "address",
+    "test",
+    "port",
+    "ip",
+    "ipv6",
+    "ipv4"
   ],
   "dependencies": {
-    "ip-regex": "^3.0.0",
+    "ip-regex": "^4.1.0",
     "tlds": "^1.199.0"
   },
   "devDependencies": {
