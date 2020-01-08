@@ -24,12 +24,12 @@
     "url"
   ],
   "dependencies": {
-    "ip-regex": "^3.0.0",
+    "ip-regex": "^4.1.0",
     "tlds": "^1.199.0"
   },
   "devDependencies": {
-    "ava": "^1.1.0",
-    "xo": "^0.24.0"
+    "ava": "^2.4.0",
+    "xo": "^0.25.3"
   },
   "xo": {
     "esnext": true,
